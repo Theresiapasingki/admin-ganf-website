@@ -46,10 +46,14 @@ const ProductEdit = () => {
                   ></input>
 
                   <p className="text-[13px] font-medium pb-1 pt-4">Category</p>
-                  <input
+                  <select
                     className="textarea-field w-[456px] rounded-[8px] placeholder-padding placeholder-style"
                     placeholder="Name goes here"
-                  ></input>
+                  >
+                    <option>Food</option>
+                    <option>Drink</option>
+                    <option>Clothes</option>
+                  </select>
 
                   <p className="text-[13px] font-medium pb-1 pt-4">
                     Description
