@@ -1,26 +1,21 @@
-import { createBrowserRouter } from 'react-router-dom';
 import {
   Dashboard,
-  ProductsAdd,
-  ProductEdit,
   Products,
-  Promotion,
-  PromotionAdd,
-  PromotionEdit,
-  SettingsEdit,
+  ProductsAdd,
+  ProductsEdit,
+  Promotions,
+  PromotionsAdd,
+  PromotionsEdit,
   Settings,
-  Logout
 } from '../pages';
 
-export const router = createBrowserRouter([
+export const router = [
   { path: '/', element: <Dashboard /> },
-  { path: '/addproduct', element: <ProductsAdd /> },
-  { path: '/editproduct', element: <ProductEdit /> },
   { path: '/product', element: <Products /> },
-  { path: '/promotion', element: <Promotion /> },
-  { path: '/addpromotion', element: <PromotionAdd /> },
-  { path: '/editpromotion', element: <PromotionEdit /> },
-  { path: '/editsettings', element: <SettingsEdit /> },
+  { path: '/product/add', element: <ProductsAdd /> },
+  { path: '/product/edit/:id', element: <ProductsEdit /> },
+  { path: '/promotion', element: <Promotions /> },
+  { path: '/promotion/add', element: <PromotionsAdd /> },
+  { path: '/promotion/edit/:id', element: <PromotionsEdit /> },
   { path: '/settings', element: <Settings /> },
-  { path: '/logout', element: <Logout /> },
-]);
+];

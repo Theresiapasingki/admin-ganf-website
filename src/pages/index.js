@@ -1,23 +1,21 @@
-import Dashboard from './Dashboard';
-import ProductsAdd from './ProductsAdd';
-import PromotionEdit from './PromotionEdit';
-import Products from './Products';
-import Promotion from './Promotion';
-import PromotionAdd from './PromotionAdd';
-import ProductEdit from './ProductEdit';
-import SettingsEdit from './SettingsEdit';
-import Settings from './Settings';
-import Logout from './Logout';
+import Dashboard from './Dashboard/Dashboard';
+import Products from './Products/Products';
+import ProductsAdd from './Products/ProductsAdd';
+import ProductsEdit from './Products/ProductsEdit';
+import Promotions from './Promotions/Promotions';
+import PromotionsEdit from './Promotions/PromotionsEdit';
+import PromotionsAdd from './Promotions/PromotionsAdd';
+import Settings from './Settings/Settings';
+import Login from './Login/Login';
 
 export {
   Dashboard,
-  ProductsAdd,
-  PromotionEdit,
   Products,
-  Promotion,
-  PromotionAdd,
-  ProductEdit,
-  SettingsEdit,
+  ProductsAdd,
+  ProductsEdit,
+  Promotions,
+  PromotionsAdd,
+  PromotionsEdit,
   Settings,
-  Logout,
+  Login,
 };

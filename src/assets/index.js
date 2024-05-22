@@ -1,47 +1,48 @@
-import logo from './Images/logo.png';
-import buttonpower from './Icons/button-power.svg';
-import handheld from './Icons/hand-held.svg';
-import home from './Icons/home.svg';
-import insertside from './Icons/insert-side.svg';
-import settings from './Icons/Settings.svg';
-import user from './Images/user.svg';
-import shoppingcart from './Icons/shopping-cart.svg';
-import notes from './Icons/notes.svg';
-import employee from './Icons/employee.svg';
-import grassjelly from './Images/grassJelly.png';
-import mangocake from './Images/mangoCake.png';
-import matchabun from './Images/matchabun.png';
-import milkbun from './Images/milkbun.png';
-import strawberry from './Images/strawberryCake.png';
-import cam from './Icons/picture.svg';
-import profile from './Icons/profile.svg';
-import ganf from './Images/GANF1.png';
-import line from './Icons/Line1.svg';
-import bin from './Icons/bin.svg';
-import pencil from './Icons/pencil.svg';
-import desember from './Images/Desember.png';
+import logo from './images/logo.png';
+import user from './images/user.svg';
+import ganfLogo from './images/ganf-logo.png';
+
+import cartIcon from './icons/cart.svg';
+import notesIcon from './icons/notes.svg';
+import employeeIcon from './icons/employee.svg';
+import deleteIcon from './icons/bin.svg';
+import editIcon from './icons/pencil.svg';
+import homeBlackIcon from './icons/menu/home-black.svg';
+import productBlackIcon from './icons/menu/product-black.svg';
+import promotionBlackIcon from './icons/menu/promotion-black.svg';
+import settingBlackIcon from './icons/menu/setting-black.svg';
+import homeBlueIcon from './icons/menu/home-blue.svg';
+import productBlueIcon from './icons/menu/product-blue.svg';
+import promotionBlueIcon from './icons/menu/promotion-blue.svg';
+import settingBlueIcon from './icons/menu/setting-blue.svg';
+import logOutIcon from './icons/menu/button-power.svg';
+import defaultProfile from './icons/profile.svg';
+import placeholderPhoto from './icons/picture.svg';
+import arrowDown from './icons/arrow-down.svg';
+import loadingIcon from './icons/loading.svg';
+import loadingWhiteIcon from './icons/loading-white.svg';
 
 export {
   logo,
-  buttonpower,
-  handheld,
-  home,
-  insertside,
-  settings,
   user,
-  shoppingcart,
-  notes,
-  employee,
-  grassjelly,
-  mangocake,
-  matchabun,
-  milkbun,
-  strawberry,
-  cam,
-  profile,
-  ganf,
-  line,
-  bin,
-  pencil,
-  desember,
+  ganfLogo,
+  placeholderPhoto,
+  cartIcon,
+  notesIcon,
+  employeeIcon,
+  deleteIcon,
+  editIcon,
+  homeBlackIcon,
+  productBlackIcon,
+  promotionBlackIcon,
+  settingBlackIcon,
+  homeBlueIcon,
+  productBlueIcon,
+  promotionBlueIcon,
+  settingBlueIcon,
+  logOutIcon,
+  defaultProfile,
+  arrowDown,
+  loadingIcon,
+  loadingWhiteIcon,
 };
